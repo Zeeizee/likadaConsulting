@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/81adc5ffee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main-style.css">
+    <link rel="stylesheet" href="./css/responsive-styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LI KA DA</title>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("B2fZATPlxfZyMHOo6");
+})();
+</script>
+<!-- google recaptcha script tag -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PC2Z1SNGX8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PC2Z1SNGX8');
+</script>
+</head>
+<body>
+                <!-- header section start  -->
+            <nav class=" sticky-top  justify-content-between" id="main__nav">
+
+                <a href="index.html" class="d-flex text-decoration-none">
+                    <div class="brandName">
+                        <img src="./images/logo2.png" alt="" style="height: 100%; width: 100%;">
+                    </div>
+                </a>
+        
+                <input class="d-none" type="checkbox" id="checkboxClick">
+                <label for="checkboxClick" class="menu-btn d-flex justify-content-center align-items-center" 
+                    id="header-menu">
+                    <i class="fas fa-bars " id="menuBtn"></i>
+                    <i class="fas fa-times HideBtn" id="closeBtn"></i>
+                </label>
+                
+                <ul class=" my-auto nav_items_list" id="nav_list">
+                    <li class=" d-flex justify-content-center align-items-center ">
+                        <a class=" text-uppercase" href="#featuresSection" id="nav-item-fea">WHAT WE CAN DO</a>
+                    </li>
+                    <li class=" d-flex justify-content-center align-items-center ">
+                        <a href="#refSection" class=" text-uppercase" id="nav-item-ref">References</a>
+                    </li>
+                    <li class="d-flex justify-content-center align-items-center ">
+                        <a href="#eventsSection" class=" text-uppercase" id="nav-item-upd">Updates</a>
+                    </li>
+                    <div class="text-center getInTouch">
+                        <a href="" class="getInTouchTitle my-auto py-auto " data-toggle="modal" id="nav-item-get"
+                        data-target="#getInTouch">GET IN TOUCH</a>
+                        
+                    </div>
+                
+                </ul>
+        
+            </nav>
+                <!-- top banner section  -->
+                <!-- carousel section  -->
+            <section class="caroselSec">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+
+                     
+
+
+
+                      <div class="carousel-item active">
+                        <div class="cara1 p-4 d-flex justify-content-center align-items-center">
+                        
+                            <p class="bannerHeading2 text-center px-4  h4 mx-auto py-2 text-uppercase">Trustworthy partners for your journey</p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item ">
+                        <div class="cara3 p-4 d-flex justify-content-center align-items-center">
+                            <p class="bannerHeading2 text-center px-4  h4 mx-auto py-2 text-uppercase">Heavy industry consulting</p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item ">
+                        <div class="cara4 p-4 d-flex justify-content-center align-items-center">
+                            <p class="bannerHeading2 text-center px-4  h4 mx-auto py-2 text-uppercase">Business management</p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item ">
+                        <div class="cara5 p-4 d-flex justify-content-center align-items-center">
+                            <p class="bannerHeading2 text-center px-4  h4 mx-auto py-2 text-uppercase">Strategic consulting</p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item ">
+                        <div class="cara2 p-4 d-flex justify-content-center align-items-center">
+                            <p class="bannerHeading2 text-center px-4  h4 mx-auto py-2 text-uppercase">marketing and business planning</p>
+                        </div>
+                      </div>
+
+
+                     
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </section>
+            
+
+            <section class="topBanner d-flex flex-column justify-content-center align-items-center">
+                <div class="topBannerInner">
+                    <div class="row mx-0">
+                        <div class="col-lg-12 col-md-12 col-sm-12 topBannerInnerLeft py-md-4 d-flex flex-column justify-content-center mx-auto">
+    
+                            <p class="bannerHeading mx-auto text-center">Trustworthy partners for your journey</p>
+                            <p class="bannerPara pt-md-2 mx-auto">Many aspects of entering a new market can be thrilling as well as disencouraging because risky.
+                                Consulting about your business ideas help you take the right decision.
+                                You will receive concrete advise from us, nothing generic and without scope of application, no bells and whistles.</p>
+                        </div>
+    
+                        
+    
+                    </div>
+    
+                </div>
+            </section>  
+
+                 <!-- innerBody -->
+            <div class="innerBody" data-spy="scroll" data-target="#main__nav" data-offset="0">
+
+
+
+                <!-- ///////////features section /////// -->
+
+                <section class="features  p-4" id="featuresSection">
+                    <p class="section-heading  text-uppercase">WHAT WE CAN DO</p>
+                    <div class="d-flex flex-wrap mx-auto justify-content-center align-items-center" id="featuresCards">
+                        
+                                    <!-- card #01  -->
+                        <div class="card mr-3 my-3"
+                            style=" 
+                            background-image: url('../images/firm1.jpg');
+                            background-size: cover;
+                            object-fit: contain;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            transition: all 1s;
+                            cursor: pointer;
+                            "
+                            >
+                            <div class="innerCard">
+                                <h5 class="cardHeading text-center text-uppercase ">
+                                    FMCG-F&B
+                                </h5>
+                            </div>
+                            <p class="cardDeatils text-center">
+                                marketing and business planning
+                            </p>
+                        </div>
+
+                        
+                                    <!-- card #02  -->
+                        <div class="card mr-3 my-3"
+                            style=" 
+                            background-image: url('../images/dress.jpg');
+                            background-size: cover;
+                            object-fit: contain;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            transition: all 1s;
+                            cursor: pointer;
+                            "
+                            >
+                            <div class="innerCard">
+                                <h5 class="cardHeading text-center text-uppercase ">
+                                    FMCG-Knitware and apparel
+                                </h5>
+                            </div>
+                            <p class="cardDeatils text-center">
+                                Sourcing
+                            </p>
+                        </div>
+
+                                    <!-- card #03  -->
+                        <div class="card mr-3 my-3"
+                            style=" 
+                            background-image: url('../images/firm2.jpg');
+                            background-size: cover;
+                            object-fit: contain;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            transition: all 1s;
+                            cursor: pointer;
+                            "
+                            >
+                            <div class="innerCard">
+                                <h5 class="cardHeading text-center text-uppercase ">
+                                    Heavy industry consulting
+                                </h5>
+                            </div>
+                            <p class="cardDeatils text-center">
+                                from business development to sourcing
+                            </p>
+                        </div>
+
+                                    <!-- card #04  -->
+                        <div class="card mr-3 my-3"
+                            style=" 
+                            background-image: url('../images/business.jpg');
+                            background-size: cover;
+                            object-fit: contain;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            transition: all 1s;
+                            cursor: pointer;
+                            "
+                            >
+                            <div class="innerCard">
+                                <h5 class="cardHeading text-center text-uppercase ">
+                                    Business management
+                                </h5>
+                            </div>
+                            <p class="cardDeatils text-center">
+                                IT solutions & services
+                            </p>
+                        </div>
+
+                                    <!-- card #05  -->
+                        <div class="card mr-3 my-3"
+                            style=" 
+                            background-image: url('../images/Strategic.jpg');
+                            background-size: cover;
+                            object-fit: contain;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            transition: all 1s;
+                            cursor: pointer;
+                            "
+                            >
+                            <div class="innerCard">
+                                <h5 class="cardHeading text-center text-uppercase ">
+                                    Strategic consulting
+                                </h5>
+                            </div>
+                            <p class="cardDeatils text-center">
+                                Including cybersecurity and smart ERP solutions
+                            </p>
+                        </div>
+
+
+                    </div>
+                </section>
+
+                <!-- ///////////References////////// -->
+
+                <section class="References  p-4" id="refSection">
+                    <p class="section-heading   text-uppercase">References</p>
+                    <div class=" border table-responsive">
+                        <table class="table table-hover ">
+                            <thead class="table-header">
+                                <tr>
+                                    <th scope="col capitalize text-weight-bold">Year</th>
+                                    <th scope="col capitalize text-weight-bold">Scope and Description</th>
+                                    <th scope="col capitalize text-weight-bold">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="referenceList">                              
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    <button onclick="callRef()" class=" seeMoreBtns my-2">See more</button>
+
+
+                </section>
+                <!-- <img src="./images/dress.jpg" alt=""> -->
+
+                
+
+                <!-- ///////////LinkedIn Posts////////// -->
+
+                <section class="events p-4 mb-3" id="eventsSection">
+                    <p class="section-heading  text-uppercase">UPDATES</p>
+
+                    <div class="posts  mx-auto row" id="LinkedInPosts">
+
+                    </div>
+                    <button onclick="callLinked()" class=" seeMoreBtns my-2">See more</button>
+                </section>
+
+
+
+            </div>
+
+            <!-- //footer section start from here  -->
+        <footer class="border">
+
+            <div class="f-main">
+                <a href="index.html" class="d-flex text-decoration-none justify-content-center">
+                    <div class="brandName-f mb-3">
+                        <img src="./images/logo2.png" alt="" style="height: 100%; width: 100%;">
+                    </div>
+                    <!-- <p class="  align-items-center font-weight-bold brandTitle-f">LI KA DA</p> -->
+                </a>
+               
+
+                <div class="mx-md-5 mx-0 d-flex flex-wrap justify-content-between align-items-start ">
+
+                    <div class="  flex-column ">
+                        <div class="">
+                            <i class="fas fa-map-marker-alt my-auto"></i>
+                            <span class="pl-3 contact-info-text" style="color:black">​Level 40, One Museum Place, 669 Xinzha Road, Jing An District, Shanghai 200041</span>
+                        </div>
+    
+                        
+    
+                        <div class="">
+                            <i class="fas fa-phone-square-alt"></i>
+                            <span class="pl-3 contact-info-text"><a href="tel:+86(21)60776527" style="color:black;">+86(21)60776527</a></span>
+                        </div> 
+                        
+
+
+                    </div>
+
+                    <div class=" d-flex mt-4 mt-sm-2 align-items-center justify-content-center " id="f-social-icons">
+                        <a class="social-div mx-1 " href="https://www.linkedin.com/company/lkd-business-development/" target="_blank"> 
+                            <i class="p-2 social-icons fab fa-linkedin" style="width:100%;height:100%;"></i>
+                        </a>
+                    
+                    </div>
+
+
+
+                </div>
+
+                <div class=" mx-md-5 mx-0  my-3 mx-auto d-flex align-items-start justify-content-start flex-wrap">
+                    <a href="https://www.cameraitacina.com/it " style="text-decoration:none; color: rgb(45,47,46); " class="f-logo2" target=”_blank”>
+                        <div>
+                            <span style="font-weight: 600;">Member of:</span>
+                        </div>
+                        <div>
+                            <span style="font-weight: 600;">
+                                Camera di Commercio ltaliana in Cina
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                中国意大利商会
+                            </span>
+                        </div>
+                        <div style="font-weight: 600;">
+                            <span>China-Italy Chamber of Commerce</span>
+                        </div>
+                    </a>
+
+                                     
+                </div>   
+
+            </div>
+
+            <div class="f-copyright py-4 d-flex justify-content-between align-items-center px-4 flex-column flex-sm-row">
+                
+                <span class="copyRightText d-flex text-center"> @2018-2021 Likada (Shanghai) Business Consulting Co.Ltd.- all right reserved</span>
+                <span onclick="fixed__msg()"data-toggle="modal"data-target="#getInTouch" class="mt-3 m-sm-0  copyRightText text-center policy-f">Privacy policy in accordance with GDPR and PIPL. Contact us for more information.</span>
+
+            </div>
+            
+        </footer>
+
+                  
+                    
+            <!-- Modal -->
+        <div class="modal fade" id="getInTouch" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="getInTouchLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog modal-dialog-centered ">
+            <div class="modal-content getInTouchModal">
+
+                <div class="modal-header">
+                <h5 class="modal-title" id="getInTouchLabel">Contact us</h5>
+                <button type="button" id="modal-close" class="close" data-dismiss="modal" aria-label="Close" onclick="default__modal()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <section id="contact">
+                        <div class="contact-box w-100 pt-3">                                      
+                            <div class="contact-form-wrapper">
+                                
+                            <form method="" class="contact-form getInTouchForm">
+                                <div class="form-item">
+                                <input type="text" name="sender name" class="user_name form-input" >
+                                <label class="form-label">Name:</label>
+                                </div>
+
+                                <div class="form-item">
+                                <input type="text" name="company" class="user_company form-input" >
+                                <label class="form-label">Company</label>
+                                </div>
+
+                                <div class="form-item">
+                                <input type="text" name="email" class="user_email form-input" >
+                                <label class="form-label">Email:</label>
+                                </div>
+
+                                <div class="form-item">
+                                <textarea class="user_message form-input" id="msg__textarea" name="message" ></textarea>
+                                <label class="form-label">Message:</label>
+                                </div>
+
+                                <div class="d-flex">
+                                    <input type="checkbox" name="" class="form-input agreement-box" id="agree-btn">
+                                    <label class="agree-statement"> Hereby, I agree to provide my personal data above solely for the scope of receiving the information requested and for future professional communication by Likada (Shanghai) Business Consulting.</label>
+                                </div>
+                                <div class="d-flex my-2">
+                  <div class="g-recaptcha " data-type="image" data-theme="dark"  data-sitekey="6LfPLi4gAAAAACy3Yuu9ucTrhNT31EGEp3ZwRzRR"></div>
+                  
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center   ">
+                                    <div class="spinner-border text-primary d-none loader my-2 " role="status">
+                                    <span class="sr-only">Loading...</span>
+                                  </div></div>
+
+                                <button type="button" class="submit-btn">Send</button>  
+                            </form>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+               
+            </div>
+            </div>
+        </div>
+
+        <!-- //////modal for confirming message send////// -->
+
+        <div class="modal fade" id="msg_confirming" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog modal-dialog modal-dialog-centered ">
+            <div class="modal-content  msg_confirming_modal">
+                <div class="modal-header msg_confirming_header">
+                <h5 class="modal-title" id="">Your message has been sent</h5>
+                <button type="button conf-btn" id="modal-close" class="close" data-dismiss="modal" aria-label="Close" onclick="default__modal()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body confirm-msg-body m-0 p-0">
+
+                    <!-- <section id="contact">
+                        <div class="contact-box w-100 pt-3">                                      
+                            <div class="contact-form-wrapper">
+                                <p class="send-message">Your message has been sent</p>
+                            </div>
+                        </div>
+                    </section> -->
+
+                </div>
+                
+            </div>
+            </div>
+        </div>
+
+        <!-- //////////// -->
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script >
+        
+            var cardsObject= [
+                {title:"Business management", discription:"IT solutions & services",imgPath:"business.jpg"},
+                {title:"Strategic consulting", discription:"Including cybersecurity and smart ERP solutions",imgPath:"Strategic.jpg"},
+                {title:"Heavy industry consulting", discription:"from business development to sourcing",imgPath:"firm2.jpg"},
+                {title:"FMCG-F&B", discription:"marketing and business planning",imgPath:"firm1.jpg"},
+                {title:"FMCG-Knitware and apparel", discription:"Sourcing",imgPath:"dress.jpg"},
+            ];
+            
+            var refList = [          
+
+
+            {id:1,year: "2022",discription:"Cybersec consulting",status:"Ongoing"},
+            {id:2,year: "2022",discription:"Strategic sourcing",status:"Ongoing"},
+            {id:3,year: "2022",discription:"Strategic sourcing",status:"Ongoing"},
+            {id:4,year: "2022",discription:"Cybersec consulting",status:"Ongoing"},
+
+            {id:5,year: "2021",discription:"Strategy consulting for market entry",status:"Ongoing"},
+            {id:6,year: "2021",discription:"L3/MES for metals industry",status:"Ongoing"},
+            {id:7,year: "2021",discription:"Strategic sourcing",status:"Ongoing"},
+            {id:8,year: "2021",discription:"Strategy business development",status:"Ongoing"},
+
+
+            {id:9,year: "2021",discription:"Strategic sourcing",status:"Completed"},
+            {id:10,year: "2021",discription:"Strategic sourcing",status:"Completed"},
+            {id:11,year: "2020",discription:"Equipment sourcing",status:"Completed"},
+            {id:12,year: "2020",discription:"Expediting, quality control and inspection",status:"Completed"},
+            {id:13,year: "2020",discription:"Strategic sourcing",status:"Completed"},
+            {id:14,year: "2020",discription:"Strategic sourcing",status:"Completed"},
+            {id:15,year: "2019",discription:"L3/MES for metals industry",status:"Completed"},
+            {id:16,year: "2019",discription:"Strategy consulting for market entry",status:"Completed"},
+      
+
+        ]
+        
+        var InPosts =
+        [
+            {id:"1", embCode:'<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6932588187588464640" height="900" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>'
+            },
+            {id:"2", embCode:'<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6888701761230651392" height="900" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>'
+            },
+            {id:"3", embCode:"<iframe src='https://www.linkedin.com/embed/feed/update/urn:li:share:6879612152127328256' height='900' width='100%' frameborder='0' allowfullscreen='' title='Embedded post'></iframe>"
+            },
+            {id:"4", embCode:'<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6873530475923808256" height="900" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>'
+            },
+            {id:"5", embCode:"<iframe src='https://www.linkedin.com/embed/feed/update/urn:li:share:6866942702831968257' height='900' width='100%' frameborder='0' allowfullscreen='' title='Embedded post'></iframe>"
+            },
+
+            {id:"6", embCode:'<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6865512165223354369" height="900" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>'
+            },
+
+            {id:"7", embCode:'<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6859848457780387840" height="722" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>'
+            },
+
+            {id:"8", embCode:'<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6851441618709549056" height="591" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>'
+            },
+
+            {id:"9", embCode:'<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6844198253895020544" height="646" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>'
+            }
+        ]
+        
+        var cardsLength="";
+        var refLength="";
+        var InPostsLength="";
+
+        $('document').ready(function(){
+                    objLengths();
+                    cardShow();
+                    refrenceListShow(refLength);
+                    linkedInEvents(InPostsLength);
+        
+        
+                    $('#checkboxClick').click(function(){
+                        if($(this).prop("checked") == true){
+                            
+                            // $("#menuBtn").toggleClass("HideBtn");
+                            // $("#closeBtn").toggleClass("HideBtn");
+                            document.getElementById("nav_list").style.left = "-100%";
+                        }
+                        else if($(this).prop("checked") == false){
+                            // $("#menuBtn").toggleClass("HideBtn");
+                            // $("#closeBtn").toggleClass("HideBtn");
+                            document.getElementById("nav_list").style.left = "0%";
+                            
+                        }
+                    });
+        
+        });
+        
+         document.getElementById("nav-item-fea").addEventListener("click", function() 
+        {
+            document.getElementById("nav_list").style.left = "-100%";
+            if($("#checkboxClick").prop("checked") == true){
+                $("#checkboxClick").prop("checked", false);
+            }
+            else
+            {
+                $("#checkboxClick").prop("checked", true);
+            }
+          });
+
+        document.getElementById("nav-item-ref").addEventListener("click", function() 
+        {
+            document.getElementById("nav_list").style.left = "-100%";
+            if($("#checkboxClick").prop("checked") == true){
+                $("#checkboxClick").prop("checked", false);
+            }
+            else
+            {
+                $("#checkboxClick").prop("checked", true);
+            }
+          });
+        document.getElementById("nav-item-upd").addEventListener("click", function() 
+        {
+            document.getElementById("nav_list").style.left = "-100%";
+            if($("#checkboxClick").prop("checked") == true){
+                $("#checkboxClick").prop("checked", false);
+            }
+            else
+            {
+                $("#checkboxClick").prop("checked", true);
+            }
+          });
+        document.getElementById("nav-item-get").addEventListener("click", function() 
+        {
+            document.getElementById("nav_list").style.left = "-100%";
+            if($("#checkboxClick").prop("checked") == true){
+                $("#checkboxClick").prop("checked", false);
+            }
+            else
+            {
+                $("#checkboxClick").prop("checked", true);
+            }
+          });
+          
+          function objLengths()
+        {
+            
+            if(cardsObject.length < 5)
+            {
+                cardsLength = cardsObject.length;
+            }
+            else
+            {
+                cardsLength = 5;
+            }
+            if(refList.length < 5)
+            {
+                refLength = refList.length;
+            }
+            else
+            {
+            refLength = 5;
+            }
+            if(InPosts.length < 2 )
+            {
+                InPostsLength = InPosts.length;
+            }
+            else
+            {
+                InPostsLength = 2;
+            }
+
+        }
+        
+        document.getElementById("myFrame").onload = function() {myFunction()};
+        
+         function myFunction() {
+      document.getElementById("demo").innerHTML = "Iframe is loaded.";
+    }
+    
+      function callRef()
+        {
+            if(refList.length > refLength + 5  )
+            {
+                refLength+=5;
+                // refrenceListShow(refLength);
+                console.log(refrenceListShow(refLength));  // changed
+            }
+            else
+            {
+                refrenceListShow(refList.length);
+            }
+
+
+        }
+        
+        function callLinked()
+        {
+            if(InPosts.length > InPostsLength + 2  )
+            {
+                InPostsLength += 2;
+                linkedInEvents(InPostsLength);
+            }
+            else
+            {
+                linkedInEvents(InPosts.length);
+            }
+
+
+        }
+        
+         function cardShow()
+        {
+            var featCards =""; 
+            cardsObject.forEach(cObj=> {
+                featCards+=
+                `
+                <div class="card mr-3 my-3"
+                style=
+                "
+                background-image: url('../images/${cObj.imgPath}');
+                background-size: cover;
+                object-fit: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: all 1s;
+                cursor: pointer;
+                "
+                >
+                    <div class="innerCard">
+                        <h5 class="cardHeading text-center text-uppercase ">
+                            ${cObj.title}
+                        </h5>
+                    </div>
+                    <p class="cardDeatils text-center">
+                    ${cObj.discription}
+                    </p>
+                </div>
+
+                `
+                
+            })
+
+            document.getElementById("featuresCards").innerHTML = featCards;
+        }
+        
+        function refrenceListShow(RLength)
+        {
+            var ref_count =0;
+            var ref ="";
+            refList.forEach(rObj=>{
+                if(ref_count < RLength)
+                {
+
+                
+                    ref +=
+                    `
+                        <tr>
+                            <td>${rObj.year}</td>
+                            <td>${rObj.discription}</td>
+                            <td>${rObj.status}</td>
+                        </tr>
+                
+                    `
+                    ref_count+=1;
+                }
+            })
+
+            document.getElementById("referenceList").innerHTML=ref;
+
+        }
+        
+        function linkedInEvents(InLength)
+        {
+
+            let InCount =0;
+            let newPost ="";
+            InPosts.forEach(InObj=>{
+
+                if(InCount < InLength)
+                {
+                    newPost +=
+                    `
+                        <div class="inPost col-lg-6 col-md-6 col-sm-12 my-2" >
+                            ${InObj.embCode}                
+                        </div>        
+                    `
+                    InCount+=1;
+                }
+
+
+            })
+
+            document.getElementById("LinkedInPosts").innerHTML= newPost;
+
+        }
+        
+        function fixed__msg()
+        {
+            document.getElementById("msg__textarea").value="Please, send me information about your privacy policy. Thank you.";
+        }
+
+        function default__modal()
+        {
+            document.getElementById("msg__textarea").value="";
+        }
+
+       
+            
+            
+        </script>
+        <script>
+            const submitbtn= document.querySelector('.submit-btn');
+            
+         const sendMail=()=>{
+            const loader= document.querySelector('.loader');
+         
+          
+            
+          
+            const form= document.querySelector('.getInTouchForm');
+            const user_name= document.querySelector('.user_name');
+            const user_company= document.querySelector('.user_company');
+            const user_email= document.querySelector('.user_email');
+            const user_message= document.querySelector('.user_message');
+            const agreementBox= document.querySelector('.agreement-box');
+           
+            if(user_name.value.trim()==="")
+            {
+                alert("Please enter your name")
+                user_name.focus()
+                return;
+            }
+            if(user_company.value.trim()==="")
+            {
+                alert("Please enter your company name")
+                user_company.focus()
+                return;
+            }
+            if(user_email.value.trim()==="")
+            {
+                alert("Please enter your email")
+                user_email.focus()
+                return;
+            }
+            if(user_message.value.trim()==="")
+            {
+                alert("Please enter your message")
+                user_message.focus()
+                return;
+            }
+            if(!agreementBox.checked)
+            {
+                alert("Please check this agrement policy")
+                user_message.focus()
+                return;
+            }
+            if(grecaptcha.getResponse().length===0){
+        alert("Please Fill recaptcha to confirm you are not robot")
+        return;
+    }
+    loader.classList.remove('d-none')
+    submitbtn.disabled = true
+    
+ 
+
+    var tempParams={
+
+        from_name:user_name.value.trim(),
+        from_email:user_email.value.trim(),        
+        message:user_message.value.trim(),
+        from_company:user_company.value.trim()
+        }
+        emailjs.send('likada_2fe7g1g','template_97vv1rt',tempParams).then(res=>{        
+            emailjs.send('likada_2fe7g1g','template_8mzzjvq',tempParams).then(resp=>{
+                loader.classList.add('d-none');
+            alert("Your email send to Likada Business Consulting . you will recieve confirmation email to your inbox soon. Thankyou");
+            $('#getInTouch').modal('hide');
+            grecaptcha.reset();
+            submitbtn.disabled = false  ;
+            form.reset();
+                  })
+            
+    
+    
+
+        })
+        .catch(err=>{
+            console.log("Failed",err)
+        })
+}
+           
+           submitbtn.addEventListener('click',(e)=>{
+            
+            
+            sendMail()
+          
+       
+
+           })
+           
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>

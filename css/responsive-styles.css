@@ -1,0 +1,156 @@
+/* /////////////////////Responsive styling code ////////////// */
+
+@media (max-width: 279px) {
+  .brandName,
+  .brandName-f {
+    height: 50px;
+    width: 180px;
+    -webkit-width: 180px;
+    -moz-width: 180px;
+  }
+}
+@media (min-width: 280px) {
+  .brandName,
+  .brandName-f {
+    height: 55px;
+    width: 200px;
+    -webkit-width: 200px;
+    -moz-width: 200px;
+  }
+}
+@media (min-width: 300px) {
+  .brandName,
+  .brandName-f {
+    height: 55px;
+    width: 250px;
+    -webkit-width: 250px;
+    -moz-width: 250px;
+  }
+}
+@media (min-width: 381px) {
+  .brandName,
+  .brandName-f {
+    height: 55px;
+    width: 300px;
+    -webkit-width: 300px;
+    -moz-width: 300px;
+  }
+}
+
+@media (max-width: 575.9px) {
+  nav {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .brandTitle {
+    font-size: 1.5rem;
+  }
+
+  .bannerPara {
+    font-size: 1rem;
+    font-size: 1.1rem;
+    color: #000;
+    max-width: 300px;
+  }
+  .bannerHeading {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .topBannerInnerLeft {
+    padding: 5px 30px;
+  }
+
+  #f-social-icons {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .brandName,
+  .brandName-f {
+    height: 60px;
+    width: 350px;
+    -webkit-width: 350px;
+    -moz-width: 350px;
+  }
+}
+@media (max-width: 991.98px) {
+  .hideNavItems {
+    left: -100%;
+  }
+  .nav_items_list {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #f8f8f8;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 10vh;
+  }
+  .nav__show__hide {
+    left: -100%;
+  }
+  .hide__Ul {
+    left: -100%;
+  }
+  nav ul li {
+    margin: 25px 0;
+  }
+  nav ul li a {
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    color: #1b1b1b;
+  }
+  nav ul li a:hover,
+  nav ul li a.active {
+    background: none;
+    color: #000;
+  }
+  #header-menu {
+    display: block;
+    color: black;
+    /* background-color: transparent; */
+  }
+  .bannerPara {
+    font-size: 1rem;
+    font-size: 1.1rem;
+    color: #000;
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bannerPara {
+    font-size: 1rem;
+    font-size: 1.1rem;
+    color: #000;
+    max-width: 992px;
+  }
+  .brandName,
+  .brandName-f {
+    color: #707070;
+    height: 60px;
+    width: 420px;
+    -webkit-width: 420px;
+    -moz-width: 420px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 2000px) {
+  .innerBody {
+    min-height: 60vh;
+    max-width: 1900px;
+    /* border: 1px solid red; */
+    margin: auto;
+    position: relative;
+  }
+  .bannerPara {
+    font-size: 1.1rem;
+    color: #000;
+    max-width: 1500px;
+  }
+}
